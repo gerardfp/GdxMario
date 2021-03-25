@@ -1,0 +1,125 @@
+
+miatles.png
+size: 256, 32
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+button_quit_over
+  rotate: false
+  xy: 2, 2
+  size: 23, 9
+  orig: 23, 9
+  offset: 0, 0
+  index: -1
+button_quit_up
+  rotate: false
+  xy: 20, 21
+  size: 23, 9
+  orig: 23, 9
+  offset: 0, 0
+  index: -1
+button_start_over
+  rotate: false
+  xy: 45, 21
+  size: 23, 9
+  orig: 23, 9
+  offset: 0, 0
+  index: -1
+button_start_up
+  rotate: false
+  xy: 70, 21
+  size: 23, 9
+  orig: 23, 9
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 239, 16
+  size: 8, 14
+  orig: 8, 14
+  offset: 0, 0
+  index: 2
+coin
+  rotate: false
+  xy: 27, 5
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: 0
+coin
+  rotate: false
+  xy: 36, 5
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: 1
+coin
+  rotate: false
+  xy: 45, 5
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: 3
+goomba_dead
+  rotate: false
+  xy: 221, 22
+  size: 16, 8
+  orig: 16, 8
+  offset: 0, 0
+  index: -1
+goomba_walk
+  rotate: false
+  xy: 95, 14
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 0
+goomba_walk
+  rotate: false
+  xy: 113, 14
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 1
+mario_damp
+  rotate: false
+  xy: 185, 15
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+mario_dead
+  rotate: false
+  xy: 203, 16
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+mario_idle
+  rotate: false
+  xy: 131, 14
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mario_jump
+  rotate: false
+  xy: 149, 14
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mario_walk
+  rotate: false
+  xy: 2, 13
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: 1
+mario_walk
+  rotate: false
+  xy: 167, 14
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 0

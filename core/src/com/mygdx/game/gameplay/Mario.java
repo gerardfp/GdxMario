@@ -21,8 +21,8 @@ public class Mario extends MyActor {
     public void act(float delta) {
         super.act(delta);
 
-        // TODO: clase Constants
         if(Gdx.input.isKeyJustPressed(Input.Keys.ANY_KEY)){
+            // TODO: clase Constants con todos los numeritos (static)
             body.applyForce(0, 5000, 0, 0, true);
         }
     }

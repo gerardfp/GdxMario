@@ -24,6 +24,12 @@ public class Map extends Actor {
     }
 
     public void loadObjects(MyWorld myWorld) {
+
+        // Añadir dependencia -> api "com.github.tommyettinger:libgdx-utils-box2d:0.13.7"  (mirar build.gradle)
+
+        // En Tiled hay que poner Nombre -> mario, goomba,... y Type -> object
+        // Solo acepta objetos de tipo rectangulo, punto, elipse o triangulo
+        // No importa en que capa esten
         Box2DMapObjectParser box2DMapObjectParser = new Box2DMapObjectParser(); // TODO: UnitScale
 
         box2DMapObjectParser.setListener(new Box2DMapObjectParser.Listener.Adapter() {
